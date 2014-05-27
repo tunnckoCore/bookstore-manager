@@ -1,0 +1,33 @@
+/* 
+    Document   : custom
+    Created on : Oct 10, 2013, 6:00:10 PM
+    Author     : charlike
+    Description:
+        Purpose of the stylesheet follows.
+*/
+.list-group-item:first-child {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+.list-group-item {
+    border: 1px solid transparent;
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+}
+.list-group-item:last-child {
+    border-bottom: 0px solid transparent;
+}
+.list-group {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.widget .widget-content .table tr td:first-of-type {
+    text-align: center;
+}
+.tm-th-first-width {
+    width: 40px;
+}
+.table-striped > tbody > tr:nth-child(odd) > td,
+.table-striped > tbody > tr:nth-child(odd) > th {
+  background-color: #f1f1f1;
+}
